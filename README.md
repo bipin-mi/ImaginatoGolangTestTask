@@ -1,7 +1,7 @@
 # Golang CRUD test task
 
 This application is a Golang api structure with gorm and fully version manageable. It provides options to improve the
-performance of developer
+performance of the developer.
 
 ## 🙇 Application Requirement
 
@@ -25,7 +25,7 @@ go version
 
 ## 🛠️ Start the application locally
 
-1. Extract the repository in Golang's ```src``` folder
+1. Clone the repository in Golang's ```src``` folder
 
 2. Change the below ```ENV variables``` values as per your system environment in ```.env``` file.
 
@@ -37,7 +37,7 @@ Password = xxxxxxxxxx
 ```
 
 3. Run `go mod vendor` to install all the required dependency
-4. From ```testTask``` directory, open a terminal and run
+4. From project ```root``` directory, open a terminal and run
 
 ```bash 
 go run main.go //to start the process and if its first time then migrate all the required tables
