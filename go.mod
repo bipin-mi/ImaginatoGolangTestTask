@@ -1,4 +1,4 @@
-module testTask
+module ImaginatoGolangTestTask
 
 go 1.13
 

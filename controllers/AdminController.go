@@ -220,6 +220,7 @@ func (ac *AdminController) AdminDelete(c *gin.Context) {
 
 }
 
+//VerifyEmail is validate request and call the service
 func (ac *AdminController) VerifyEmail(c *gin.Context) {
 	log.GetLog().Info("INFO : ", "Admin Controller Called(Verify Email).")
 	var req request.VerifyEmailRequest

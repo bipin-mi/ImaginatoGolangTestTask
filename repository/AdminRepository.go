@@ -193,6 +193,7 @@ func (ar *adminRepo) AdminDelete(conn database.IConnection, admin *request.Delet
 	return nil
 }
 
+//UpdateEmailVerifyAdmin verify the user email and update its status
 func (ar *adminRepo) UpdateEmailVerifyAdmin(conn database.IConnection, req *request.VerifyEmailRequest) error {
 	log.GetLog().Info("INFO : ", "User Repo Called(UpdateEmailVerifyUser).")
 

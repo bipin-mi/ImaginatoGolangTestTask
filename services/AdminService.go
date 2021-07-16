@@ -232,6 +232,7 @@ func (as *AdminService) ServiceDelete(req request.DeleteAdminRequest) map[string
 	return deleteResponse
 }
 
+//VerifyEmail this service used to verify the admin user
 func (as *AdminService) VerifyEmail(req request.VerifyEmailRequest) map[string]interface{} {
 	log.GetLog().Info("INFO : ", "User Service Called(Verify Email).")
 
